@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="180.0" layeredLayoutPreferredHeightMM="90.0"  autolayout="true" styles="margin:5.0mm 5.0mm 10.0mm 5.0mm;" title="Login" scrollableY="false" name="Login">
+  <component type="Label" preferredSize="inherit 22.751324mm" icon="resFile:quizbig.png" name="Label">
+    <layoutConstraint insets="0.0mm auto 80.91027% auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="TextField" preferredSize="61.640213mm inherit" hint="Username" hintIcon="fontImage:e7fd" name="Text_Field">
+    <layoutConstraint insets="5.0mm 0.0mm auto 0.0mm" referenceComponents="0 0 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="TextField" hint="Password" hintIcon="fontImage:e897" name="Text_Field_1">
+    <layoutConstraint insets="2.0mm 0.0mm auto 0.0mm" referenceComponents="1 1 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Button" text="Login" preferredSize="52.645504mm 8.994709mm" name="Button">
+    <layoutConstraint insets="3.968254mm auto auto auto" referenceComponents="2 2 -1 2 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Button" text="Sign Up" preferredSize="53.968254mm 8.201058mm" name="Button_1" actionEvent="true">
+    <layoutConstraint insets="2.910053mm auto auto 0.0mm" referenceComponents="3 -1 -1 3 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Label" text=" " preferredSize="68.25397mm 3.7037036mm" name="Label_1">
+    <layoutConstraint insets="0.0mm 0.0mm auto 0.0mm" referenceComponents="4 0 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+</component>

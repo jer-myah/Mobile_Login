@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" layout="LayeredLayout" layeredLayoutPreferredWidthMM="0.0" layeredLayoutPreferredHeightMM="0.0"  autolayout="true" styles="margin:5.0mm 2.0mm 10.0mm 5.0mm;" title="Sign Up" scrollableY="false" name="SignUp">
+  <component type="TextField" hint="Surname" hintIcon="fontImage:e7fd" name="Text_Field">
+    <layoutConstraint insets="1.5mm auto auto auto" referenceComponents="-1 -1 -1 -1" referencePositions="0.0 0.0 0.0 0.0" />
+  </component>
+  <component type="TextField" hint="First Name" hintIcon="fontImage:e7fd" name="Text_Field_1">
+    <layoutConstraint insets="1.0mm auto auto 0.0mm" referenceComponents="0 -1 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="TextField" preferredSize="55.026455mm inherit" hint="Username" hintIcon="fontImage:e7fd" name="Text_Field_2">
+    <layoutConstraint insets="1.0mm auto auto 0.0mm" referenceComponents="1 0 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="TextField" preferredSize="55.026455mm inherit" hint="Password" hintIcon="fontImage:e897" name="Text_Field_3">
+    <layoutConstraint insets="1.0mm auto auto 0.0mm" referenceComponents="2 0 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="TextField" preferredSize="55.820107mm inherit" hint="Confirm Password" hintIcon="fontImage:e897" name="Text_Field_4">
+    <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="3 0 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Button" text="Sign Up" preferredSize="55.291004mm inherit" name="Button" actionEvent="true">
+    <layoutConstraint insets="1.0mm auto auto 0.0mm" referenceComponents="4 0 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Button" text="Back" preferredSize="54.761906mm inherit" name="Button_1" actionEvent="true">
+    <layoutConstraint insets="1.0mm 0.0mm auto 0.0mm" referenceComponents="5 0 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+  <component type="Label" preferredSize="55.555557mm 13.227513mm" name="Label">
+    <layoutConstraint insets="3.4391534mm 0.0mm 4.7619047mm 0.0mm" referenceComponents="6 1 -1 0 " referencePositions="1.0 0.0 0.0 0.0" />
+  </component>
+</component>
